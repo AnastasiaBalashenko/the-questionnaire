@@ -20,11 +20,11 @@ form.addEventListener("submit", async(event) => {
                 'Authorization': 'Bearer: AnastasiaBalashenko'
             },
             body: JSON.stringify({
-                "name": "Полина",
-                "secondName": "Shneider",
-                "phone": 89990000000,
-                "email": "polina@gmail.com",
-                "agree": true
+                "name": name,
+                "secondName": secondName,
+                "phone": phone,
+                "email": email,
+                "agree": agree
             }),
         })
 
